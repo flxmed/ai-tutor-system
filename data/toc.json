@@ -1,0 +1,1827 @@
+[
+  [
+    1,
+    "Notation",
+    12
+  ],
+  [
+    1,
+    "Chapter 1 - Introduction",
+    16
+  ],
+  [
+    2,
+    "1.1 Who Should Read This Book?",
+    23
+  ],
+  [
+    2,
+    "1.2 Historical Trends in Deep Learning",
+    26
+  ],
+  [
+    3,
+    "1.2.1 The Many Names and Changing Fortunes of Neural Networks",
+    27
+  ],
+  [
+    3,
+    "1.2.2 Increasing Dataset Sizes",
+    33
+  ],
+  [
+    3,
+    "1.2.3 Increasing Model Sizes",
+    34
+  ],
+  [
+    3,
+    "1.2.4 Increasing Accuracy, Complexity and Real-World Impact",
+    37
+  ],
+  [
+    1,
+    "Part I - Applied Math and Machine Learning Basics",
+    44
+  ],
+  [
+    2,
+    "Chapter 2 - Linear Algebra",
+    46
+  ],
+  [
+    3,
+    "2.1 Scalars, Vectors, Matrices and Tensors",
+    46
+  ],
+  [
+    3,
+    "2.2 Multiplying Matrices and Vectors",
+    49
+  ],
+  [
+    3,
+    "2.3 Identity and Inverse Matrices",
+    51
+  ],
+  [
+    3,
+    "2.4 Linear Dependence and Span",
+    52
+  ],
+  [
+    3,
+    "2.5 Norms",
+    54
+  ],
+  [
+    3,
+    "2.6 Special Kinds of Matrices and Vectors",
+    55
+  ],
+  [
+    3,
+    "2.7 Eigendecomposition",
+    57
+  ],
+  [
+    3,
+    "2.8 Singular Value Decomposition",
+    59
+  ],
+  [
+    3,
+    "2.9 The Moore-Penrose Pseudoinverse",
+    60
+  ],
+  [
+    3,
+    "2.10 The Trace Operator",
+    61
+  ],
+  [
+    3,
+    "2.11 The Determinant",
+    62
+  ],
+  [
+    3,
+    "2.12 Example: Principal Components Analysis",
+    63
+  ],
+  [
+    2,
+    "Chapter 3 - Probability and Information Theory",
+    68
+  ],
+  [
+    3,
+    "3.1 Why Probability?",
+    69
+  ],
+  [
+    4,
+    "3.3.1 Discrete Variables and Probability Mass Functions",
+    70
+  ],
+  [
+    3,
+    "3.2 Random Variables",
+    71
+  ],
+  [
+    3,
+    "3.3 Probability Distributions",
+    71
+  ],
+  [
+    3,
+    "3.4 Marginal Probability",
+    73
+  ],
+  [
+    3,
+    "3.5 Conditional Probability",
+    74
+  ],
+  [
+    3,
+    "3.6 The Chain Rule of Conditional Probabilities",
+    74
+  ],
+  [
+    3,
+    "3.7 Independence and Conditional Independence",
+    75
+  ],
+  [
+    3,
+    "3.8 Expectation, Variance and Covariance",
+    75
+  ],
+  [
+    3,
+    "3.9 Common Probability Distributions",
+    77
+  ],
+  [
+    4,
+    "3.9.1 Bernoulli Distribution",
+    77
+  ],
+  [
+    4,
+    "3.9.2 Multinoulli Distribution",
+    77
+  ],
+  [
+    4,
+    "3.9.3 Gaussian Distribution",
+    78
+  ],
+  [
+    4,
+    "3.9.4 Exponential and Laplace Distributions",
+    80
+  ],
+  [
+    4,
+    "3.9.5 The Dirac Distribution and Empirical Distribution",
+    80
+  ],
+  [
+    4,
+    "3.9.6 Mixtures of Distributions",
+    81
+  ],
+  [
+    3,
+    "3.10 Useful Properties of Common Functions",
+    82
+  ],
+  [
+    3,
+    "3.11 Bayes\u2019 Rule",
+    85
+  ],
+  [
+    3,
+    "3.12 Technical Details of Continuous Variables",
+    86
+  ],
+  [
+    3,
+    "3.13 Information Theory",
+    87
+  ],
+  [
+    3,
+    "3.14 Structured Probabilistic Models",
+    90
+  ],
+  [
+    2,
+    "Chapter 4 - Numerical Computation",
+    95
+  ],
+  [
+    3,
+    "4.1 Overflow and Underflow",
+    95
+  ],
+  [
+    3,
+    "4.2 Poor Conditioning",
+    97
+  ],
+  [
+    3,
+    "4.3 Gradient-Based Optimization",
+    97
+  ],
+  [
+    4,
+    "4.3.1 Beyond the Gradient: Jacobian and Hessian Matrices",
+    101
+  ],
+  [
+    3,
+    "4.4 Constrained Optimization",
+    108
+  ],
+  [
+    3,
+    "4.5 Example: Linear Least Squares",
+    111
+  ],
+  [
+    2,
+    "Chapter 5 - Machine Learning Basics",
+    113
+  ],
+  [
+    3,
+    "5.1 Learning Algorithms",
+    114
+  ],
+  [
+    4,
+    "5.1.1 The Task, T",
+    114
+  ],
+  [
+    4,
+    "5.1.2 The Performance Measure, P",
+    118
+  ],
+  [
+    4,
+    "5.1.3 The Experience, E",
+    119
+  ],
+  [
+    4,
+    "5.1.4 Example: Linear Regression",
+    122
+  ],
+  [
+    3,
+    "5.2 Capacity, Overfitting and Underfitting",
+    125
+  ],
+  [
+    4,
+    "5.2.1 The No Free Lunch Theorem",
+    131
+  ],
+  [
+    4,
+    "5.2.2 Regularization",
+    133
+  ],
+  [
+    3,
+    "5.3 Hyperparameters and Validation Sets",
+    135
+  ],
+  [
+    4,
+    "5.3.1 Cross-Validation",
+    136
+  ],
+  [
+    3,
+    "5.4 Estimators, Bias and Variance",
+    137
+  ],
+  [
+    4,
+    "5.4.1 Point Estimation",
+    137
+  ],
+  [
+    4,
+    "5.4.2 Bias",
+    139
+  ],
+  [
+    4,
+    "5.4.3 Variance and Standard Error",
+    142
+  ],
+  [
+    4,
+    "5.4.4 Trading off Bias and Variance to Minimize Mean Squared Error",
+    144
+  ],
+  [
+    4,
+    "5.4.5 Consistency",
+    145
+  ],
+  [
+    3,
+    "5.5 Maximum Likelihood Estimation",
+    146
+  ],
+  [
+    4,
+    "5.5.1 Conditional Log-Likelihood and Mean Squared Error",
+    148
+  ],
+  [
+    4,
+    "5.5.2 Properties of Maximum Likelihood",
+    149
+  ],
+  [
+    3,
+    "5.6 Bayesian Statistics",
+    150
+  ],
+  [
+    4,
+    "5.6.1 Maximum A Posteriori (MAP) Estimation",
+    153
+  ],
+  [
+    3,
+    "5.7 Supervised Learning Algorithms",
+    154
+  ],
+  [
+    4,
+    "5.7.1 Probabilistic Supervised Learning",
+    155
+  ],
+  [
+    4,
+    "5.7.2 Support Vector Machines",
+    155
+  ],
+  [
+    4,
+    "5.7.3 Other Simple Supervised Learning Algorithms",
+    158
+  ],
+  [
+    3,
+    "5.8 Unsupervised Learning Algorithms",
+    160
+  ],
+  [
+    4,
+    "5.8.1 Principal Components Analysis",
+    161
+  ],
+  [
+    4,
+    "5.8.2 k-means Clustering",
+    164
+  ],
+  [
+    3,
+    "5.9 Stochastic Gradient Descent",
+    165
+  ],
+  [
+    3,
+    "5.10 Building a Machine Learning Algorithm",
+    167
+  ],
+  [
+    3,
+    "5.11 Challenges Motivating Deep Learning",
+    169
+  ],
+  [
+    4,
+    "5.11.1 The Curse of Dimensionality",
+    169
+  ],
+  [
+    4,
+    "5.11.2 Local Constancy and Smoothness Regularization",
+    171
+  ],
+  [
+    4,
+    "5.11.3 Manifold Learning",
+    175
+  ],
+  [
+    1,
+    "Part II - Deep Networks: Modern Practices",
+    180
+  ],
+  [
+    2,
+    "Chapter 6 - Deep Feedforward Networks",
+    182
+  ],
+  [
+    3,
+    "6.1 Example: Learning XOR",
+    185
+  ],
+  [
+    3,
+    "6.2 Gradient-Based Learning",
+    191
+  ],
+  [
+    4,
+    "6.2.1 Cost Functions",
+    192
+  ],
+  [
+    5,
+    "6.2.1.1 Learning Conditional Distributions with Maximum Likelihood",
+    192
+  ],
+  [
+    5,
+    "6.2.1.2 Learning Conditional Statistics",
+    194
+  ],
+  [
+    4,
+    "6.2.2 Output Units",
+    195
+  ],
+  [
+    5,
+    "6.2.2.1 Linear Units for Gaussian Output Distributions",
+    195
+  ],
+  [
+    5,
+    "6.2.2.2 Sigmoid Units for Bernoulli Output Distributions",
+    196
+  ],
+  [
+    5,
+    "6.2.2.3 Softmax Units for Multinoulli Output Distributions",
+    198
+  ],
+  [
+    5,
+    "6.2.2.4 Other Output Types",
+    201
+  ],
+  [
+    3,
+    "6.3 Hidden Units",
+    205
+  ],
+  [
+    4,
+    "6.3.1 Rectified Linear Units and Their Generalizations",
+    207
+  ],
+  [
+    4,
+    "6.3.2 Logistic Sigmoid and Hyperbolic Tangent",
+    209
+  ],
+  [
+    4,
+    "6.3.3 Other Hidden Units",
+    210
+  ],
+  [
+    3,
+    "6.4 Architecture Design",
+    211
+  ],
+  [
+    4,
+    "6.4.1 Universal Approximation Properties and Depth",
+    212
+  ],
+  [
+    4,
+    "6.4.2 Other Architectural Considerations",
+    215
+  ],
+  [
+    3,
+    "6.5 Back-Propagation and Other Differentiation Algorithms",
+    218
+  ],
+  [
+    4,
+    "6.5.1 Computational Graphs",
+    219
+  ],
+  [
+    4,
+    "6.5.2 Chain Rule of Calculus",
+    221
+  ],
+  [
+    4,
+    "6.5.3 Recursively Applying the Chain Rule to Obtain Backprop",
+    222
+  ],
+  [
+    4,
+    "6.5.4 Back-Propagation Computation in Fully-Connected MLP",
+    225
+  ],
+  [
+    4,
+    "6.5.5 Symbol-to-Symbol Derivatives",
+    225
+  ],
+  [
+    4,
+    "6.5.6 General Back-Propagation",
+    229
+  ],
+  [
+    4,
+    "6.5.7 Example: Back-Propagation for MLP Training",
+    233
+  ],
+  [
+    4,
+    "6.5.8 Complications",
+    235
+  ],
+  [
+    4,
+    "6.5.9 Differentiation outside the Deep Learning Community",
+    236
+  ],
+  [
+    4,
+    "6.5.10 Higher-Order Derivatives",
+    238
+  ],
+  [
+    3,
+    "6.6 Historical Notes",
+    239
+  ],
+  [
+    2,
+    "Chapter 7 - Regularization for Deep Learning",
+    243
+  ],
+  [
+    3,
+    "7.1 Parameter Norm Penalties",
+    245
+  ],
+  [
+    4,
+    "7.1.1 L2 Parameter Regularization",
+    246
+  ],
+  [
+    4,
+    "7.1.2 L1 Regularization",
+    249
+  ],
+  [
+    3,
+    "7.2 Norm Penalties as Constrained Optimization",
+    252
+  ],
+  [
+    3,
+    "7.3 Regularization and Under-Constrained Problems",
+    254
+  ],
+  [
+    3,
+    "7.4 Dataset Augmentation",
+    255
+  ],
+  [
+    3,
+    "7.5 Noise Robustness",
+    257
+  ],
+  [
+    3,
+    "7.6 Semi-Supervised Learning",
+    258
+  ],
+  [
+    3,
+    "7.7 Multi-Task Learning",
+    259
+  ],
+  [
+    3,
+    "7.8 Early Stopping",
+    261
+  ],
+  [
+    3,
+    "7.9 Parameter Tying and Parameter Sharing",
+    268
+  ],
+  [
+    3,
+    "7.10 Sparse Representations",
+    269
+  ],
+  [
+    3,
+    "7.11 Bagging and Other Ensemble Methods",
+    271
+  ],
+  [
+    3,
+    "7.12 Dropout",
+    273
+  ],
+  [
+    3,
+    "7.13 Adversarial Training",
+    283
+  ],
+  [
+    3,
+    "7.14 Tangent Distance, Tangent Prop, and Manifold Tangent Classifier",
+    285
+  ],
+  [
+    2,
+    "Chapter 8 - Optimization for Training Deep Models",
+    289
+  ],
+  [
+    3,
+    "8.1 How Learning Differs from Pure Optimization",
+    290
+  ],
+  [
+    4,
+    "8.1.1 Empirical Risk Minimization",
+    290
+  ],
+  [
+    4,
+    "8.1.2 Surrogate Loss Functions and Early Stopping",
+    291
+  ],
+  [
+    4,
+    "8.1.3 Batch and Minibatch Algorithms",
+    292
+  ],
+  [
+    3,
+    "8.2 Challenges in Neural Network Optimization",
+    297
+  ],
+  [
+    4,
+    "8.2.1 Ill-Conditioning",
+    297
+  ],
+  [
+    4,
+    "8.2.2 Local Minima",
+    298
+  ],
+  [
+    4,
+    "8.2.3 Plateaus, Saddle Points and Other Flat Regions",
+    300
+  ],
+  [
+    4,
+    "8.2.4 Cliffs and Exploding Gradients",
+    303
+  ],
+  [
+    4,
+    "8.2.5 Long-Term Dependencies",
+    304
+  ],
+  [
+    4,
+    "8.2.6 Inexact Gradients",
+    305
+  ],
+  [
+    4,
+    "8.2.7 Poor Correspondence between Local and Global Structure",
+    306
+  ],
+  [
+    4,
+    "8.2.8 Theoretical Limits of Optimization",
+    308
+  ],
+  [
+    3,
+    "8.3 Basic Algorithms",
+    309
+  ],
+  [
+    4,
+    "8.3.1 Stochastic Gradient Descent",
+    309
+  ],
+  [
+    4,
+    "8.3.2 Momentum",
+    311
+  ],
+  [
+    4,
+    "8.3.3 Nesterov Momentum",
+    315
+  ],
+  [
+    3,
+    "8.4 Parameter Initialization Strategies",
+    316
+  ],
+  [
+    3,
+    "8.5 Algorithms with Adaptive Learning Rates",
+    321
+  ],
+  [
+    4,
+    "8.5.1 AdaGrad",
+    322
+  ],
+  [
+    4,
+    "8.5.2 RMSProp",
+    322
+  ],
+  [
+    4,
+    "8.5.3 Adam",
+    323
+  ],
+  [
+    4,
+    "8.5.4 Choosing the Right Optimization Algorithm",
+    324
+  ],
+  [
+    3,
+    "8.6 Approximate Second-Order Methods",
+    325
+  ],
+  [
+    4,
+    "8.6.1 Newton\u2019s Method",
+    325
+  ],
+  [
+    4,
+    "8.6.2 Conjugate Gradients",
+    328
+  ],
+  [
+    4,
+    "8.6.3 BFGS",
+    331
+  ],
+  [
+    3,
+    "8.7 Optimization Strategies and Meta-Algorithms",
+    332
+  ],
+  [
+    4,
+    "8.7.1 Batch Normalization",
+    332
+  ],
+  [
+    4,
+    "8.7.2 Coordinate Descent",
+    336
+  ],
+  [
+    4,
+    "8.7.3 Polyak Averaging",
+    337
+  ],
+  [
+    4,
+    "8.7.4 Supervised Pretraining",
+    337
+  ],
+  [
+    4,
+    "8.7.5 Designing Models to Aid Optimization",
+    340
+  ],
+  [
+    4,
+    "8.7.6 Continuation Methods and Curriculum Learning",
+    341
+  ],
+  [
+    2,
+    "Chapter 9 - Convolutional Networks",
+    345
+  ],
+  [
+    3,
+    "9.1 The Convolution Operation",
+    346
+  ],
+  [
+    3,
+    "9.2 Motivation",
+    350
+  ],
+  [
+    3,
+    "9.3 Pooling",
+    354
+  ],
+  [
+    3,
+    "9.4 Convolution and Pooling as an Infinitely Strong Prior",
+    360
+  ],
+  [
+    3,
+    "9.5 Variants of the Basic Convolution Function",
+    362
+  ],
+  [
+    3,
+    "9.6 Structured Outputs",
+    373
+  ],
+  [
+    3,
+    "9.7 Data Types",
+    375
+  ],
+  [
+    3,
+    "9.8 Efficient Convolution Algorithms",
+    377
+  ],
+  [
+    3,
+    "9.9 Random or Unsupervised Features",
+    378
+  ],
+  [
+    3,
+    "9.10 The Neuroscientific Basis for Convolutional Networks",
+    379
+  ],
+  [
+    3,
+    "9.11 Convolutional Networks and the History of Deep Learning",
+    386
+  ],
+  [
+    2,
+    "Chapter 10 - Sequence Modeling: Recurrentand Recursive Nets",
+    388
+  ],
+  [
+    3,
+    "10.1 Unfolding Computational Graphs",
+    390
+  ],
+  [
+    3,
+    "10.2 Recurrent Neural Networks",
+    393
+  ],
+  [
+    4,
+    "10.2.1 Teacher Forcing and Networks with Output Recurrence",
+    396
+  ],
+  [
+    4,
+    "10.2.2 Computing the Gradient in a Recurrent Neural Network",
+    399
+  ],
+  [
+    4,
+    "10.2.3 Recurrent Networks as Directed Graphical Models",
+    401
+  ],
+  [
+    4,
+    "10.2.4 Modeling Sequences Conditioned on Context with RNNs",
+    406
+  ],
+  [
+    3,
+    "10.3 Bidirectional RNNs",
+    410
+  ],
+  [
+    3,
+    "10.4 Encoder-Decoder Sequence-to-Sequence Architectures",
+    411
+  ],
+  [
+    3,
+    "10.5 Deep Recurrent Networks",
+    413
+  ],
+  [
+    3,
+    "10.6 Recursive Neural Networks",
+    415
+  ],
+  [
+    3,
+    "10.7 The Challenge of Long-Term Dependencies",
+    417
+  ],
+  [
+    3,
+    "10.8 Echo State Networks",
+    420
+  ],
+  [
+    3,
+    "10.9 Leaky Units and Other Strategies for Multiple Time Scales",
+    423
+  ],
+  [
+    4,
+    "10.9.1 Adding Skip Connections through Time",
+    423
+  ],
+  [
+    4,
+    "10.9.2 Leaky Units and a Spectrum of Different Time Scales",
+    423
+  ],
+  [
+    4,
+    "10.9.3 Removing Connections",
+    424
+  ],
+  [
+    3,
+    "10.10 The Long Short-Term Memory and Other Gated RNNs",
+    425
+  ],
+  [
+    4,
+    "10.10.1 LSTM",
+    425
+  ],
+  [
+    4,
+    "10.10.2 Other Gated RNNs",
+    428
+  ],
+  [
+    3,
+    "10.11 Optimization for Long-Term Dependencies",
+    429
+  ],
+  [
+    4,
+    "10.11.1 Clipping Gradients",
+    430
+  ],
+  [
+    4,
+    "10.11.2 Regularizing to Encourage Information Flow",
+    432
+  ],
+  [
+    3,
+    "10.12 Explicit Memory",
+    433
+  ],
+  [
+    2,
+    "Chapter 11 - Practical Methodology",
+    438
+  ],
+  [
+    3,
+    "11.1 Performance Metrics",
+    439
+  ],
+  [
+    3,
+    "11.2 Default Baseline Models",
+    442
+  ],
+  [
+    3,
+    "11.3 Determining Whether to Gather More Data",
+    443
+  ],
+  [
+    3,
+    "11.4 Selecting Hyperparameters",
+    444
+  ],
+  [
+    4,
+    "11.4.1 Manual Hyperparameter Tuning",
+    445
+  ],
+  [
+    4,
+    "11.4.2 Automatic Hyperparameter Optimization Algorithms",
+    449
+  ],
+  [
+    4,
+    "11.4.3 Grid Search",
+    449
+  ],
+  [
+    4,
+    "11.4.4 Random Search",
+    451
+  ],
+  [
+    4,
+    "11.4.5 Model-Based Hyperparameter Optimization",
+    452
+  ],
+  [
+    3,
+    "11.5 Debugging Strategies",
+    453
+  ],
+  [
+    3,
+    "11.6 Example: Multi-Digit Number Recognition",
+    457
+  ],
+  [
+    2,
+    "Chapter 12 - Applications",
+    460
+  ],
+  [
+    3,
+    "12.1 Large Scale Deep Learning",
+    460
+  ],
+  [
+    4,
+    "12.1.1 Fast CPU Implementations",
+    461
+  ],
+  [
+    4,
+    "12.1.2 GPU Implementations",
+    461
+  ],
+  [
+    4,
+    "12.1.3 Large Scale Distributed Implementations",
+    464
+  ],
+  [
+    4,
+    "12.1.4 Model Compression",
+    464
+  ],
+  [
+    4,
+    "12.1.5 Dynamic Structure",
+    465
+  ],
+  [
+    4,
+    "12.1.6 Specialized Hardware Implementations of Deep Networks",
+    468
+  ],
+  [
+    3,
+    "12.2 Computer Vision",
+    469
+  ],
+  [
+    4,
+    "12.2.1 Preprocessing",
+    470
+  ],
+  [
+    5,
+    "12.2.1.1 Contrast Normalization",
+    471
+  ],
+  [
+    5,
+    "12.2.1.2 Dataset Augmentation",
+    474
+  ],
+  [
+    3,
+    "12.3 Speech Recognition",
+    475
+  ],
+  [
+    3,
+    "12.4 Natural Language Processing",
+    478
+  ],
+  [
+    4,
+    "12.4.1 n-grams",
+    478
+  ],
+  [
+    4,
+    "12.4.2 Neural Language Models",
+    480
+  ],
+  [
+    4,
+    "12.4.3 High-Dimensional Outputs",
+    482
+  ],
+  [
+    5,
+    "12.4.3.1 Use of a Short List",
+    483
+  ],
+  [
+    5,
+    "12.4.3.2 Hierarchical Softmax",
+    484
+  ],
+  [
+    5,
+    "12.4.3.3 Importance Sampling",
+    486
+  ],
+  [
+    5,
+    "12.4.3.4 Noise-Contrastive Estimation and Ranking Loss",
+    488
+  ],
+  [
+    4,
+    "12.4.4 Combining Neural Language Models with n-grams",
+    489
+  ],
+  [
+    4,
+    "12.4.5 Neural Machine Translation",
+    490
+  ],
+  [
+    5,
+    "12.4.5.1 Using an Attention Mechanism and Aligning Pieces of Data",
+    492
+  ],
+  [
+    4,
+    "12.4.6 Historical Perspective",
+    493
+  ],
+  [
+    3,
+    "12.5 Other Applications",
+    494
+  ],
+  [
+    4,
+    "12.5.1 Recommender Systems",
+    495
+  ],
+  [
+    5,
+    "12.5.1.1 Exploration Versus Exploitation",
+    497
+  ],
+  [
+    4,
+    "12.5.2 Knowledge Representation, Reasoning and Question Answering",
+    499
+  ],
+  [
+    5,
+    "12.5.2.1 Knowledge, Relations and Question Answering",
+    499
+  ],
+  [
+    1,
+    "Part III - Deep Learning Research",
+    503
+  ],
+  [
+    2,
+    "Chapter 13 - Linear Factor Models",
+    506
+  ],
+  [
+    3,
+    "13.1 Probabilistic PCA and Factor Analysis",
+    507
+  ],
+  [
+    3,
+    "13.2 Independent Component Analysis (ICA)",
+    508
+  ],
+  [
+    3,
+    "13.3 Slow Feature Analysis",
+    510
+  ],
+  [
+    3,
+    "13.4 Sparse Coding",
+    513
+  ],
+  [
+    3,
+    "13.5 Manifold Interpretation of PCA",
+    516
+  ],
+  [
+    2,
+    "Chapter 14 - Autoencoders",
+    519
+  ],
+  [
+    3,
+    "14.1 Undercomplete Autoencoders",
+    520
+  ],
+  [
+    3,
+    "14.2 Regularized Autoencoders",
+    521
+  ],
+  [
+    4,
+    "14.2.1 Sparse Autoencoders",
+    522
+  ],
+  [
+    4,
+    "14.2.2 Denoising Autoencoders",
+    524
+  ],
+  [
+    4,
+    "14.2.3 Regularizing by Penalizing Derivatives",
+    525
+  ],
+  [
+    3,
+    "14.3 Representational Power, Layer Size and Depth",
+    525
+  ],
+  [
+    3,
+    "14.4 Stochastic Encoders and Decoders",
+    526
+  ],
+  [
+    3,
+    "14.5 Denoising Autoencoders",
+    527
+  ],
+  [
+    4,
+    "14.5.1 Estimating the Score",
+    530
+  ],
+  [
+    5,
+    "14.5.1.1 Historical Perspective",
+    532
+  ],
+  [
+    3,
+    "14.6 Learning Manifolds with Autoencoders",
+    532
+  ],
+  [
+    3,
+    "14.7 Contractive Autoencoders",
+    538
+  ],
+  [
+    3,
+    "14.8 Predictive Sparse Decomposition",
+    540
+  ],
+  [
+    3,
+    "14.9 Applications of Autoencoders",
+    541
+  ],
+  [
+    2,
+    "Chapter 15 - Representation Learning",
+    543
+  ],
+  [
+    3,
+    "15.1 Greedy Layer-Wise Unsupervised Pretraining",
+    545
+  ],
+  [
+    4,
+    "15.1.1 When and Why Does Unsupervised Pretraining Work?",
+    546
+  ],
+  [
+    3,
+    "15.2 Transfer Learning and Domain Adaptation",
+    553
+  ],
+  [
+    3,
+    "15.3 Semi-Supervised Disentangling of Causal Factors",
+    558
+  ],
+  [
+    3,
+    "15.4 Distributed Representation",
+    563
+  ],
+  [
+    3,
+    "15.5 Exponential Gains from Depth",
+    570
+  ],
+  [
+    3,
+    "15.6 Providing Clues to Discover Underlying Causes",
+    571
+  ],
+  [
+    2,
+    "Chapter 16 - Structured Probabilistic Models for Deep Learning",
+    575
+  ],
+  [
+    3,
+    "16.1 The Challenge of Unstructured Modeling",
+    576
+  ],
+  [
+    3,
+    "16.2 Using Graphs to Describe Model Structure",
+    580
+  ],
+  [
+    4,
+    "16.2.1 Directed Models",
+    580
+  ],
+  [
+    4,
+    "16.2.2 Undirected Models",
+    583
+  ],
+  [
+    4,
+    "16.2.3 The Partition Function",
+    585
+  ],
+  [
+    4,
+    "16.2.4 Energy-Based Models",
+    586
+  ],
+  [
+    4,
+    "16.2.5 Separation and D-Separation",
+    589
+  ],
+  [
+    4,
+    "16.2.6 Converting between Undirected and Directed Graphs",
+    590
+  ],
+  [
+    4,
+    "16.2.7 Factor Graphs",
+    596
+  ],
+  [
+    3,
+    "16.3 Sampling from Graphical Models",
+    597
+  ],
+  [
+    3,
+    "16.4 Advantages of Structured Modeling",
+    599
+  ],
+  [
+    3,
+    "16.5 Learning about Dependencies",
+    599
+  ],
+  [
+    3,
+    "16.6 Inference and Approximate Inference",
+    600
+  ],
+  [
+    3,
+    "16.7 The Deep Learning Approach to Structured Probabilistic Models",
+    601
+  ],
+  [
+    4,
+    "16.7.1 Example: The Restricted Boltzmann Machine",
+    604
+  ],
+  [
+    2,
+    "Chapter 17 - Monte Carlo Methods",
+    607
+  ],
+  [
+    3,
+    "17.1 Sampling and Monte Carlo Methods",
+    607
+  ],
+  [
+    4,
+    "17.1.1 Why Sampling?",
+    607
+  ],
+  [
+    4,
+    "17.1.2 Basics of Monte Carlo Sampling",
+    608
+  ],
+  [
+    3,
+    "17.2 Importance Sampling",
+    609
+  ],
+  [
+    3,
+    "17.3 Markov Chain Monte Carlo Methods",
+    612
+  ],
+  [
+    3,
+    "17.4 Gibbs Sampling",
+    616
+  ],
+  [
+    3,
+    "17.5 The Challenge of Mixing between Separated Modes",
+    616
+  ],
+  [
+    4,
+    "17.5.1 Tempering to Mix between Modes",
+    619
+  ],
+  [
+    4,
+    "17.5.2 Depth May Help Mixing",
+    620
+  ],
+  [
+    2,
+    "Chapter 18 - Confronting the Partition Function",
+    622
+  ],
+  [
+    3,
+    "18.1 The Log-Likelihood Gradient",
+    623
+  ],
+  [
+    3,
+    "18.2 Stochastic Maximum Likelihood and Contrastive Divergence",
+    624
+  ],
+  [
+    3,
+    "18.3 Pseudolikelihood",
+    632
+  ],
+  [
+    3,
+    "18.4 Score Matching and Ratio Matching",
+    634
+  ],
+  [
+    3,
+    "18.5 Denoising Score Matching",
+    636
+  ],
+  [
+    3,
+    "18.6 Noise-Contrastive Estimation",
+    637
+  ],
+  [
+    3,
+    "18.7 Estimating the Partition Function",
+    640
+  ],
+  [
+    4,
+    "18.7.1 Annealed Importance Sampling",
+    642
+  ],
+  [
+    4,
+    "18.7.2 Bridge Sampling",
+    645
+  ],
+  [
+    2,
+    "Chapter 19 - Approximate Inference",
+    648
+  ],
+  [
+    3,
+    "19.1 Inference as Optimization",
+    650
+  ],
+  [
+    3,
+    "19.2 Expectation Maximization",
+    651
+  ],
+  [
+    3,
+    "19.3 MAP Inference and Sparse Coding",
+    652
+  ],
+  [
+    3,
+    "19.4 Variational Inference and Learning",
+    655
+  ],
+  [
+    4,
+    "19.4.1 Discrete Latent Variables",
+    656
+  ],
+  [
+    4,
+    "19.4.2 Calculus of Variations",
+    662
+  ],
+  [
+    4,
+    "19.4.3 Continuous Latent Variables",
+    665
+  ],
+  [
+    4,
+    "19.4.4 Interactions between Learning and Inference",
+    667
+  ],
+  [
+    3,
+    "19.5 Learned Approximate Inference",
+    668
+  ],
+  [
+    4,
+    "19.5.1 Wake-Sleep",
+    668
+  ],
+  [
+    4,
+    "19.5.2 Other Forms of Learned Inference",
+    669
+  ],
+  [
+    2,
+    "Chapter 20 - Deep Generative Models",
+    671
+  ],
+  [
+    3,
+    "20.1 Boltzmann Machines",
+    671
+  ],
+  [
+    3,
+    "20.2 Restricted Boltzmann Machines",
+    673
+  ],
+  [
+    4,
+    "20.2.1 Conditional Distributions",
+    675
+  ],
+  [
+    4,
+    "20.2.2 Training Restricted Boltzmann Machines",
+    676
+  ],
+  [
+    3,
+    "20.3 Deep Belief Networks",
+    677
+  ],
+  [
+    3,
+    "20.4 Deep Boltzmann Machines",
+    680
+  ],
+  [
+    4,
+    "20.4.1 Interesting Properties",
+    682
+  ],
+  [
+    4,
+    "20.4.2 DBM Mean Field Inference",
+    683
+  ],
+  [
+    4,
+    "20.4.3 DBM Parameter Learning",
+    685
+  ],
+  [
+    4,
+    "20.4.4 Layer-Wise Pretraining",
+    686
+  ],
+  [
+    4,
+    "20.4.5 Jointly Training Deep Boltzmann Machines",
+    688
+  ],
+  [
+    3,
+    "20.5 Boltzmann Machines for Real-Valued Data",
+    693
+  ],
+  [
+    4,
+    "20.5.1 Gaussian-Bernoulli RBMs",
+    693
+  ],
+  [
+    4,
+    "20.5.2 Undirected Models of Conditional Covariance",
+    695
+  ],
+  [
+    3,
+    "20.6 Convolutional Boltzmann Machines",
+    700
+  ],
+  [
+    3,
+    "20.7 Boltzmann Machines for Structured or Sequential Outputs",
+    702
+  ],
+  [
+    3,
+    "20.8 Other Boltzmann Machines",
+    703
+  ],
+  [
+    3,
+    "20.9 Back-Propagation through Random Operations",
+    704
+  ],
+  [
+    4,
+    "20.9.1 Back-Propagating through Discrete Stochastic Operations",
+    706
+  ],
+  [
+    3,
+    "20.10 Directed Generative Nets",
+    709
+  ],
+  [
+    4,
+    "20.10.1 Sigmoid Belief Nets",
+    709
+  ],
+  [
+    4,
+    "20.10.2 Differentiable Generator Nets",
+    710
+  ],
+  [
+    4,
+    "20.10.3 Variational Autoencoders",
+    713
+  ],
+  [
+    4,
+    "20.10.4 Generative Adversarial Networks",
+    717
+  ],
+  [
+    4,
+    "20.10.5 Generative Moment Matching Networks",
+    720
+  ],
+  [
+    4,
+    "20.10.6 Convolutional Generative Networks",
+    721
+  ],
+  [
+    4,
+    "20.10.7 Auto-Regressive Networks",
+    722
+  ],
+  [
+    4,
+    "20.10.8 Linear Auto-Regressive Networks",
+    723
+  ],
+  [
+    4,
+    "20.10.9 Neural Auto-Regressive Networks",
+    724
+  ],
+  [
+    4,
+    "20.10.10 NADE",
+    725
+  ],
+  [
+    3,
+    "20.11 Drawing Samples from Autoencoders",
+    727
+  ],
+  [
+    4,
+    "20.11.1 Markov Chain Associated with any Denoising Autoencoder",
+    728
+  ],
+  [
+    4,
+    "20.11.2 Clamping and Conditional Sampling",
+    728
+  ],
+  [
+    4,
+    "20.11.3 Walk-Back Training Procedure",
+    730
+  ],
+  [
+    3,
+    "20.12 Generative Stochastic Networks",
+    731
+  ],
+  [
+    4,
+    "20.12.1 Discriminant GSNs",
+    732
+  ],
+  [
+    3,
+    "20.13 Other Generation Schemes",
+    732
+  ],
+  [
+    3,
+    "20.14 Evaluating Generative Models",
+    734
+  ],
+  [
+    3,
+    "20.15 Conclusion",
+    736
+  ]
+]
